@@ -2,25 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to Jekyll! - Hello, world! I'm David Freeman</title>
+	<title>AOI - Hello, world! I'm David Freeman</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Hello, world! I'm David Freeman" property="og:site_name">
   
-    <meta content="Welcome to Jekyll!" property="og:title">
+    <meta content="AOI" property="og:title">
   
   
     <meta content="article" property="og:type">
   
   
-    <meta content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes." property="og:description">
+    <meta content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+" property="og:description">
   
   
-    <meta content="http://localhost:4000/welcome-to-jekyll/" property="og:url">
+    <meta content="http://localhost:4000/AOI/" property="og:url">
   
   
-    <meta content="2013-04-06T13:32:20+09:00" property="article:published_time">
+    <meta content="2016-07-15T00:00:00+09:00" property="article:published_time">
     <meta content="http://localhost:4000/about/" property="article:author">
   
   
@@ -31,27 +32,30 @@
   
   
     
+    <meta content="웹사이트_개발" property="article:tag">
+    
   
 
   
-    <meta name="twitter:card" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+    <meta name="twitter:card" content="">
   
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="Welcome to Jekyll!">
+    <meta name="twitter:title" content="AOI">
   
   
-    <meta name="twitter:url" content="http://localhost:4000/welcome-to-jekyll/">
+    <meta name="twitter:url" content="http://localhost:4000/AOI/">
   
   
-    <meta name="twitter:description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+    <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
   
   
     <meta name="twitter:image:src" content="http://localhost:4000/assets/img/jihyuk-kim.png">
   
 
-	<meta name="description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
@@ -121,31 +125,44 @@
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">Welcome to Jekyll!</h1>
-        <div class="page-date"><span>2013, Apr 06&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <h1 class="page-title">AOI</h1>
+        <div class="page-date"><span>2016, Jul 15&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+      <h4 id="아이돌의-모든-것을-모아보자-취지로-만들어진-서비스dau-약-2k명">‘아이돌의 모든 것을 모아보자!!’ 취지로 만들어진 서비스(DAU 약 2K명)</h4>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<h4 id="-technical-lead">※ Technical Lead</h4>
+<ul>
+  <li>Web backend : Ruby on Rails, Mysql</li>
+  <li>Web frontend : HTML5, CSS3, JQuery, Javascript</li>
+  <li>Versioning : Git Flow 사용, 혼자서 만들었기 때문에 version관리 도움
+(master, develop, feature/branch, hotfix/branch, release/branch)</li>
+  <li>Server : Nginx with Digital Ocean</li>
+  <li>MVC model 적용</li>
+</ul>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h4 id="-서비스에-적용된-기능들">※ 서비스에 적용된 기능들</h4>
+<ul>
+  <li>뉴스 및 아이돌 관련 글 자동 크롤링</li>
+  <li>외국인 들을 위한 language 변환기능</li>
+  <li>Rails admin을 통해 사이트 관리에 용의한 대시보드 제공</li>
+  <li>https 적용</li>
+  <li>회원가입, login, 비밀번호 찾기</li>
+  <li>게시판 및 댓글, 좋아요 기능</li>
+  <li>Google Analytics를 통해 매달 사용자 추이 분석 중</li>
+</ul>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
+<h4 id="-하면서-느낀-부분">※ 하면서 느낀 부분</h4>
+<p>혼자서 개발 했기 때문에 편한 부분도 있었지만, 역시 자기자신의 부족함을 느낄 수 있는 시간이었다. MVC 모델에 기반에 개발에 더 익숙해 질 수 있는 시간이었고, Git Flow를 완벽하게 다룰 수 있게 되었다.</p>
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=Welcome to Jekyll!&url=http://localhost:4000/welcome-to-jekyll/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/welcome-to-jekyll/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/welcome-to-jekyll/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+          <a href="https://twitter.com/intent/tweet?text=AOI&url=http://localhost:4000/AOI/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/AOI/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/AOI/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         <div class="page-tag">
+          
+            <a href="/tags#웹사이트_개발" class="tag">&#35; 웹사이트_개발</a>
           
         </div>
       </div>

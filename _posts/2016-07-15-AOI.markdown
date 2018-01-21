@@ -1,0 +1,29 @@
+---
+layout: post
+title: AOI
+date: 2016-07-15 00:00:00 +0900
+description: # Add post description (optional)
+img: # Add image post (optional)
+tags: [웹사이트_개발]
+---
+#### ‘아이돌의 모든 것을 모아보자!!’ 취지로 만들어진 서비스(DAU 약 2K명)
+
+#### ※ Technical Lead
+- Web backend : Ruby on Rails, Mysql
+- Web frontend : HTML5, CSS3, JQuery, Javascript
+- Versioning : Git Flow 사용, 혼자서 만들었기 때문에 version관리 도움
+(master, develop, feature/branch, hotfix/branch, release/branch)
+- Server : Nginx with Digital Ocean
+- MVC model 적용
+
+#### ※ 서비스에 적용된 기능들
+- 뉴스 및 아이돌 관련 글 자동 크롤링
+- 외국인 들을 위한 language 변환기능
+- Rails admin을 통해 사이트 관리에 용의한 대시보드 제공
+- https 적용
+- 회원가입, login, 비밀번호 찾기
+- 게시판 및 댓글, 좋아요 기능
+- Google Analytics를 통해 매달 사용자 추이 분석 중
+
+#### ※ 하면서 느낀 부분
+혼자서 개발 했기 때문에 편한 부분도 있었지만, 역시 자기자신의 부족함을 느낄 수 있는 시간이었다. MVC 모델에 기반에 개발에 더 익숙해 질 수 있는 시간이었고, Git Flow를 완벽하게 다룰 수 있게 되었다.

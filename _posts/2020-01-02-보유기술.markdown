@@ -1,0 +1,23 @@
+---
+layout: post
+title: 보유기술
+date: 2018-01-01 00:00:00 +0900
+description: # Add post description (optional)
+img: # Add image post (optional)
+tags: [skill]
+---
+
+### Programming Language
+Ruby on Rails, Python, Java, SQL, Javascript, HTML5, CSS3, R
+
+### Framework / Library
+Bootstrap, jQuery, Hadoop(Hive, PIG)
+
+### Server
+MySQL, Oracle, MongoDB, Nginx
+
+### Tooling / DevOps
+Github, bitbucket
+
+### Environment
+AWS, DigitalOcean, Linux(ubuntu), Windows

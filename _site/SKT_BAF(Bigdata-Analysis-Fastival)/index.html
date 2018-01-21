@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>UNIST 3rd Bigdata Competition - Hello, world! I'm David Freeman</title>
+	<title>SKT_BAF(Bigdata Analysis Fastival) - Hello, world! I'm David Freeman</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Hello, world! I'm David Freeman" property="og:site_name">
   
-    <meta content="UNIST 3rd Bigdata Competition" property="og:title">
+    <meta content="SKT_BAF(Bigdata Analysis Fastival)" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -18,10 +18,10 @@
 " property="og:description">
   
   
-    <meta content="http://localhost:4000/UNIST-3rd-Bigdata-Competition/" property="og:url">
+    <meta content="http://localhost:4000/SKT_BAF(Bigdata-Analysis-Fastival)/" property="og:url">
   
   
-    <meta content="2014-05-15T00:00:00+09:00" property="article:published_time">
+    <meta content="2015-01-15T00:00:00+09:00" property="article:published_time">
     <meta content="http://localhost:4000/about/" property="article:author">
   
   
@@ -32,11 +32,11 @@
   
   
     
-    <meta content="UNIST" property="article:tag">
+    <meta content="SKT" property="article:tag">
     
     <meta content="데이터분석대회" property="article:tag">
     
-    <meta content="특별상" property="article:tag">
+    <meta content="레알_빅데이터" property="article:tag">
     
   
 
@@ -46,10 +46,10 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="UNIST 3rd Bigdata Competition">
+    <meta name="twitter:title" content="SKT_BAF(Bigdata Analysis Fastival)">
   
   
-    <meta name="twitter:url" content="http://localhost:4000/UNIST-3rd-Bigdata-Competition/">
+    <meta name="twitter:url" content="http://localhost:4000/SKT_BAF(Bigdata-Analysis-Fastival)/">
   
   
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -129,47 +129,48 @@
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">UNIST 3rd Bigdata Competition</h1>
-        <div class="page-date"><span>2014, May 15&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <h1 class="page-title">SKT_BAF(Bigdata Analysis Fastival)</h1>
+        <div class="page-date"><span>2015, Jan 15&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <h4 id="건설사-a가-현재-조립형-기숙사-건설이-잘-진행되고-있는지-process-mining을-통해서-문제점을-파악하고-개선안을-제시">건설사 A가 현재 조립형 기숙사 건설이 잘 진행되고 있는지 Process mining을 통해서 문제점을 파악하고, 개선안을 제시</h4>
+      <h4 id="사용자별-위치와-카드사용-내역을-통한-인사이트-도출--우리팀은-사용자들의-소비내역을-통해서-스트레스를-정량화하고-이를-위치별로-파악-분석할-수-있을-것이라는-가정하에서-프로젝트를-진행-했습니다-관련논문-유">‘사용자별 위치와 카드사용 내역을 통한 인사이트 도출’ <br /> 우리팀은 사용자들의 소비내역을 통해서 스트레스를 정량화하고 이를 위치별로 파악, 분석할 수 있을 것이라는 가정하에서 프로젝트를 진행 했습니다. (관련논문 유)</h4>
 
-<h4 id="-역할--기여도">※ 역할 &amp; 기여도</h4>
+<h4 id="-분석-도구">※ 분석 도구</h4>
 <ul>
-  <li>Process mining에 대한 이해</li>
-  <li>전처리, 이상치 및 데이터 오류 발견</li>
-  <li>Process mining 후 흐름의 문제점 및 개선안 제시</li>
+  <li>R : 다양한 통계패키지를 보유, 다양한 분석 방법들을 적용해 볼 수 있어서 좋았음</li>
+  <li>SPSS : GUI 형식 데이터 분석 플랫폼</li>
+  <li>tableau : 데이터 시각화에 최적화된 플랫폼</li>
+  <li>Quantum GIS : 좌표 데이터 변환 및 시각화에 이용</li>
 </ul>
 
-<h4 id="-성과">※ 성과</h4>
+<h4 id="-데이터-처리-방법">※ 데이터 처리 방법</h4>
 <ul>
-  <li>특별상 수상</li>
-  <li>Process mining에 대한 이해</li>
+  <li>데이터를 한번에 처리하기에는 용량이 너무 커서 R과 SPSS를 통해 분리한 후 지역별 데이터를 가지고 분석에 임함(지금 생각해 보면 DB에 넣고 핸들링 했을텐데..)</li>
+  <li>점 좌표로 이루어진 사용자 위치 데이터는 구획별로 묶어서 하나의 위치로 지정함</li>
+  <li>tableau를 이용 시각화를 통해서 스트레스에 영향을 미치는 소비패턴이 어떤 구획에서 많이 발생하는지 찾음</li>
 </ul>
 
-<h4 id="-분석도구--분석방법">※ 분석도구 &amp; 분석방법</h4>
-<ul>
-  <li>Disco를 활용한 흐름의 정체와 이상치를 발견하는 Process mining 수행</li>
-</ul>
+<h4 id="-내가-기여한-부분">※ 내가 기여한 부분</h4>
+<p>데이터를 지역별로 분리하는 역할을 주 역할로 맡았으며, 주로 R을 활용해서 데이터 정제 작업에 임했다.</p>
 
-<h4 id="-관련자료">※ 관련자료</h4>
-<ul>
-  <li>관련자료는 추후 요청 시 제출하겠습니다.</li>
-</ul>
+<h4 id="-분석하며-느낀-점">※ 분석하며 느낀 점</h4>
+<p>실전 대용량 데이터다 보니 지역별로 분리하지 않고는 분석을 할 수 없었다.SQL을 활용한 전처리의 중요성을 느꼈고, 현재 알고 있는 Hadoop 시스템을 적용 했더라면 좀 더 편하게 분석 했을 텐데 하는 아쉬움이 남았다. 그때도 느꼈지만 차라리 이런 분석을 해주는 플랫폼을 직접 만들 수 있으면 좋겠다는 생각을 종종 해왔다</p>
+
+<h4 id="-발표자료">※ 발표자료</h4>
+<p>분석발표자료는 추후 요청 시 제출하겠습니다.</p>
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=UNIST 3rd Bigdata Competition&url=http://localhost:4000/UNIST-3rd-Bigdata-Competition/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/UNIST-3rd-Bigdata-Competition/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/UNIST-3rd-Bigdata-Competition/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+          <a href="https://twitter.com/intent/tweet?text=SKT_BAF(Bigdata Analysis Fastival)&url=http://localhost:4000/SKT_BAF(Bigdata-Analysis-Fastival)/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/SKT_BAF(Bigdata-Analysis-Fastival)/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/SKT_BAF(Bigdata-Analysis-Fastival)/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         <div class="page-tag">
           
-            <a href="/tags#UNIST" class="tag">&#35; UNIST</a>
+            <a href="/tags#SKT" class="tag">&#35; SKT</a>
           
             <a href="/tags#데이터분석대회" class="tag">&#35; 데이터분석대회</a>
           
-            <a href="/tags#특별상" class="tag">&#35; 특별상</a>
+            <a href="/tags#레알_빅데이터" class="tag">&#35; 레알_빅데이터</a>
           
         </div>
       </div>

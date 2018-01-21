@@ -1,0 +1,45 @@
+---
+layout: post
+title: 교내 관심사 & 학과 기반 친구소개 서비스
+date: 2016-07-15 00:00:00 +0900
+description: # Add post description (optional)
+img: # Add image post (optional)
+tags: [웹사이트_개발]
+---
+#### ’ 교내 관심사 & 학과 기반 친구소개 서비스 개발
+
+#### ※ 서비스 설명
+이 서비스는 학점관리와 스펙쌓기에 치여 넓은 대학교에서 다양한 친구들을 만나지 못하는 대학생들을 위해서 관심사 및 학과에 기반해서 친구를 소개시켜 주는 서비스를 만들었습니다. 멋쟁이 사자처럼 3기 과정이 끝나면서 1달 반이라는 기간을 투자해서 만든 모바일 기반 웹 서비스이고, 개발 후 LINC 사업단의 지원을 받아 교내에서 실제로 출시 후 저를 포함한 300명 가량의 친구들이 다양한 친구를 소개받았습니다.
+
+#### ※ Technical Lead
+- Web backend : Ruby on Rails, Mysql
+- Web frontend : HTML5, CSS3, JQuery, Javascript
+- Versioning : Git 협업 플로우
+- Server : Nginx with AWS
+- Storage : Amazon S3
+- MVC 모델 적용
+
+#### ※ Project Lead
+- Communication : Slack 및 매신저, face to face로 팀 회의
+- 회의 : 1주일에 1번 미팅 후 각자 역할 분담 (Trello 이용)
+
+#### ※ People Management
+- 능력에 맞게 페이지 할당, front-end 개발 독려
+- 디자이너와의 끊임없는 Communication
+
+#### ※ 서비스에 적용된 기능들
+- 사용자 지정 학과 & 관심사 맞게 하루 1번 최적의 친구를 추천
+- 쪽지 주고 받기 기능
+- 회원가입, login
+- <del>학생증 인증 기능(수동)</del>
+
+
+#### ※ 내가 기여한 부분
+팀원 대부분이 개발을 해보지 않은 비전공자들 이어서 팀에서 CTO와 같은 역할을 맡았습니다. 실제 운영을 위해서 AWS을 활용 하였고, Nginx에 기반해서 ruby on rails 와 mysql을 적용, 모바일 기반 웹 페이지를 구축하였습니다. 1달 반이라는 시험기간을 포함한 짧은 기간이었지만 300명 가량의 친구들이 가입하였고, 이후 앱 창업으로 이어졌으며, 해당 창업팀에서 안드로이드 개발자로 잠시 기여 하였습니다.
+
+#### ※ Code
+- https://github.com/The-G/caufriend2
+- https://github.com/The-G/caufriend
+
+#### ※ 사진
+- 일부 하단에 첨부하였습니다.
