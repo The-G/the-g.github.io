@@ -40,6 +40,3 @@ tags: [웹사이트_개발]
 #### ※ Code
 - https://github.com/The-G/caufriend2
 - https://github.com/The-G/caufriend
-
-#### ※ 사진
-- 일부 하단에 첨부하였습니다.

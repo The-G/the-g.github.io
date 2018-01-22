@@ -3,7 +3,7 @@ layout: post
 title: kaggle 타이타닉 생존자 예측 프로젝트
 date: 2014-05-15 00:00:00 +0900
 description: 빅데이터 대학생 연합동아리 합류 후 첫 데이터 분석 프로젝트 # Add post description (optional)
-img: # Add image post (optional)
+img: titanic-a.png # Add image post (optional)
 tags: [analysis_project, tatanic, 데이터분석대회]
 ---
 #### ‘R을 이용한 타이타닉 생존자 예측 데이터 분석 프로젝트', 타이타닉 사고 당시 어떤 사람들이 생존하였는지 예측하는 Binary Classification 문제
@@ -26,5 +26,5 @@ tags: [analysis_project, tatanic, 데이터분석대회]
 #### ※ 결과
 82.775%의 예측률을 달성할 수 있었다.
 
-#### ※ 발표자료
-분석발표자료는 추후 요청 시 제출하겠습니다.
+#### ※ 사진
+![I and My friends]({{site.baseurl}}/assets/img/titanic-a.png)

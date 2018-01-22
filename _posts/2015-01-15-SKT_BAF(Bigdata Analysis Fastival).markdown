@@ -3,7 +3,7 @@ layout: post
 title: SKT_BAF(Bigdata Analysis Fastival)
 date: 2015-01-15 00:00:00 +0900
 description: # Add post description (optional)
-img: # Add image post (optional)
+img: skt-a.png # Add image post (optional)
 tags: [SKT, 데이터분석대회, 레알_빅데이터]
 ---
 #### ‘사용자별 위치와 카드사용 내역을 통한 인사이트 도출’ <br> 우리팀은 사용자들의 소비내역을 통해서 스트레스를 정량화하고 이를 위치별로 파악, 분석할 수 있을 것이라는 가정하에서 프로젝트를 진행 했습니다. (관련논문 유)
@@ -25,5 +25,5 @@ tags: [SKT, 데이터분석대회, 레알_빅데이터]
 #### ※ 분석하며 느낀 점
 실전 대용량 데이터다 보니 지역별로 분리하지 않고는 분석을 할 수 없었다.SQL을 활용한 전처리의 중요성을 느꼈고, 현재 알고 있는 Hadoop 시스템을 적용 했더라면 좀 더 편하게 분석 했을 텐데 하는 아쉬움이 남았다. 그때도 느꼈지만 차라리 이런 분석을 해주는 플랫폼을 직접 만들 수 있으면 좋겠다는 생각을 종종 해왔다
 
-#### ※ 발표자료
-분석발표자료는 추후 요청 시 제출하겠습니다.
+#### ※ 사진
+![I and My friends]({{site.baseurl}}/assets/img/skt-a.png)

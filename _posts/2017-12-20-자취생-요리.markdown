@@ -1,0 +1,11 @@
+---
+layout: post
+title: 자취 요리?!
+date: 2017-12-20 00:00:00 +0900
+description: # Add post description (optional)
+img: cook-a.jpg # Add image post (optional)
+tags: []
+---
+![I and My friends]({{site.baseurl}}/assets/img/cook-a.jpg)
+<hr>
+![I and My friends]({{site.baseurl}}/assets/img/cook-b.jpg)
