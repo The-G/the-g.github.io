@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>AI기반 빅데이터 분석자 과정 - Jihyuk's portfolio</title>
+	<title>kkbox 다음달 이탈유저 예측 프로젝트 - Jihyuk's portfolio</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Jihyuk's portfolio" property="og:site_name">
   
-    <meta content="AI기반 빅데이터 분석자 과정" property="og:title">
+    <meta content="kkbox 다음달 이탈유저 예측 프로젝트" property="og:title">
   
   
     <meta content="article" property="og:type">
@@ -18,7 +18,7 @@
 " property="og:description">
   
   
-    <meta content="http://localhost:4000/AI-%EA%B8%B0%EB%B0%98-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9E%90-%EA%B3%BC%EC%A0%95/" property="og:url">
+    <meta content="http://localhost:4000/kaggle-kkbox-project/" property="og:url">
   
   
     <meta content="2017-12-15T00:00:00+09:00" property="article:published_time">
@@ -40,10 +40,10 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="AI기반 빅데이터 분석자 과정">
+    <meta name="twitter:title" content="kkbox 다음달 이탈유저 예측 프로젝트">
   
   
-    <meta name="twitter:url" content="http://localhost:4000/AI-%EA%B8%B0%EB%B0%98-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9E%90-%EA%B3%BC%EC%A0%95/">
+    <meta name="twitter:url" content="http://localhost:4000/kaggle-kkbox-project/">
   
   
     <meta name="twitter:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -123,30 +123,41 @@
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">AI기반 빅데이터 분석자 과정</h1>
+        <h1 class="page-title">kkbox 다음달 이탈유저 예측 프로젝트</h1>
         <div class="page-date"><span>2017, Dec 15&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <h4 id="-what-i-learned">※ What I learned</h4>
+      <h4 id="kaggle-kkbox-다음달-이탈자-예측-프로젝트-예측률-향상--실제-kkbox에서-사용할-수-있는-분석툴-개발가상웹사이트">‘kaggle kkbox 다음달 이탈자 예측 프로젝트’, 예측률 향상 &amp; 실제 kkbox에서 사용할 수 있는 분석툴 개발(가상웹사이트)</h4>
+<h5 id="kkbox-is-a-music-streaming-service-established-by-a-group-of-taiwanese-software-programmers-in-2004">kkbox is a music streaming service established by a group of Taiwanese software programmers in 2004.</h5>
+
+<h4 id="-분석-도구">※ 분석 도구</h4>
 <ul>
-  <li>DataBase(Oracle) 이해 및 운용, 튜닝, PL/SQL</li>
-  <li>NoSQL 과 Hadoop(with Hive)에 대한 이해 와 운용 <br /></li>
-  <li>JAVA Programming - 이해와 MVC 모델 기반 개발 <br /></li>
-  <li>R, Python을 이용한 Programming &amp; Machine Learning (neural network, kNN, Decision Trees, naïve Bayes, Linear Regression, Logistic Regression, k-means clustering, Association analysis etc.) <br /></li>
-  <li>IBM Watson 활용 e.g.)Speech to Text, Conversation <br /></li>
+  <li>Python : 간편한 script(jupyter notebook)</li>
+  <li>Hive : 대용량 데이터 처리</li>
+  <li>mysql : 전처리에 사용</li>
 </ul>
 
-<h4 id="-study">※ Study</h4>
+<h4 id="-분석-방법">※ 분석 방법</h4>
 <ul>
-  <li>모두를 위한 딥러닝 <a href="https://hunkim.github.io/ml/">https://hunkim.github.io/ml/</a> <br /></li>
-  <li>Data Structure &amp; Algorithm</li>
+  <li>Hive 환경<br />hadoop_version 1<br />namenode+snamenode+datanode6개</li>
+  <li>mysql, 가상머신의 Hadoop과 window의 mysql간 sqoop방법으로 데이터를 주고 받음</li>
+  <li>전처리, Hive:4GB의 UserLog file을 거래 transaction 단위로 압축,요약 하는데 활용</li>
+  <li>분석, python에서 신경망 활용</li>
 </ul>
 
-<h4 id="-final-goal">※ Final Goal</h4>
+<h4 id="-웹사이트-개발-방법">※ 웹사이트 개발 방법</h4>
 <ul>
-  <li><del>11,12월의 최종 프로젝트에서 한글 NLP(자연어 처리)를 통한 쇼핑 도우미 Chatbot 개발</del></li>
-  <li>kaggle kkbox 다음달 이탈자 예측 프로젝트 <br />
-예측률 향상 &amp; 실제 kkbox에서 사용할 수 있는 분석툴개발(가상웹사이트)</li>
+  <li>ruby on rails + SQLite</li>
+  <li>실제 데이터가 아닌 sample 데이터만을 활용해서 가상으로 분석 웹사이트를 만들었기 때문에 간단히 SQLite를 활용했습니다.</li>
 </ul>
+
+<h4 id="-분석하며-느낀-점">※ 분석하며 느낀 점</h4>
+<ul>
+  <li>대용량 데이터처리에 있어서 하둡의 위대함을 느꼈고, log분석을 하는데 있어서 다양한 방법을 시도해보지 못한 점이 매우 아쉬웠습니다.</li>
+</ul>
+
+<h4 id="-내가-기여한-부분">※ 내가 기여한 부분</h4>
+<p>Hadoop 환경셋팅 및 분석 전반<br />
+전처리 및 웹사이트 개발은 팀원들에게 많이 의지함</p>
 
 <h4 id="-code">※ Code</h4>
 <ul>
@@ -155,9 +166,9 @@
 
       <div class="page-footer">
         <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=AI기반 빅데이터 분석자 과정&url=http://localhost:4000/AI-%EA%B8%B0%EB%B0%98-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9E%90-%EA%B3%BC%EC%A0%95/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/AI-%EA%B8%B0%EB%B0%98-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9E%90-%EA%B3%BC%EC%A0%95/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/AI-%EA%B8%B0%EB%B0%98-%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B6%84%EC%84%9D%EC%9E%90-%EA%B3%BC%EC%A0%95/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+          <a href="https://twitter.com/intent/tweet?text=kkbox 다음달 이탈유저 예측 프로젝트&url=http://localhost:4000/kaggle-kkbox-project/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/kaggle-kkbox-project/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/kaggle-kkbox-project/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         <div class="page-tag">
           
