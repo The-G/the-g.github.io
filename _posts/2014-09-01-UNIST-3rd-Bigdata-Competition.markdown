@@ -15,7 +15,6 @@ tags: [UNIST, 데이터분석대회, 특별상]
 
 #### ※ 성과
 - 특별상 수상
-- Process mining에 대한 이해
 
 #### ※ 분석도구 & 분석방법
 - Disco를 활용한 흐름의 정체와 이상치를 발견하는 Process mining 수행
@@ -28,5 +27,3 @@ tags: [UNIST, 데이터분석대회, 특별상]
 ![I and My friends]({{site.baseurl}}/assets/img/unist-c.jpg)
 <hr>
 ![I and My friends]({{site.baseurl}}/assets/img/unist-d.jpg)
-<hr>
-![I and My friends]({{site.baseurl}}/assets/img/unist-e.jpg)

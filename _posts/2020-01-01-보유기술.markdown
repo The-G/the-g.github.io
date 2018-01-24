@@ -4,14 +4,14 @@ title: Skill
 date: 2018-01-01 00:00:00 +0900
 description: # Add post description (optional)
 img: # Add image post (optional)
-tags: [skill]
+tags: [skill,python제일좋아합니다.]
 ---
 
 ### Programming Language
 - Ruby on Rails, Python, Java, SQL, Javascript, HTML5, CSS3, R
 
 ### Framework / Library
-- Bootstrap, jQuery, Hadoop(Hive, PIG)
+- Bootstrap, jQuery, Hadoop(Hive)
 
 ### Server
 - MySQL, Oracle, MongoDB, Nginx

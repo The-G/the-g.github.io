@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 영화를 부탁해(2주)
+title: 영화를 부탁해
 date: 2017-08-10 00:00:00 +0900
 description: # Add post description (optional)
 img: # Add image post (optional)
-tags: [크롤링, WordCloud, 웹사이트_개발, Java, D3, 파파고]
+tags: [크롤링, WordCloud, 웹개발, Java, D3, 파파고]
 ---
-#### ‘Java를 이용한 데이터 크롤링, 데이터 정제를 위한 프로젝트’ <br> 영화를 부탁해 서비스는 내가 이 영화를 보러 가야하나 말아야 하나 하는 고민에서 벗어서 영화의 최종 관객수 예측은 물론 현재까지의 댓글을 수집해서 워드 클라우드를 구성해 줌으로써 영화에 대한 객관적인 평을 참고할 수 있도록 도와주는 사이트이다.
+#### ‘Java를 이용한 데이터 크롤링, 데이터 정제를 위한 프로젝트’, 영화를 부탁해 서비스는 영화의 현재까지의 댓글을 수집해서 워드 클라우드를 구성해 줌으로써 영화에 대한 객관적인 평을 참고할 수 있도록 도와주는 사이트입니다.
 
 #### ※ Technical Lead
 - Web backend : Java, Oracle <br>
@@ -15,18 +15,18 @@ tags: [크롤링, WordCloud, 웹사이트_개발, Java, D3, 파파고]
 - MVC model 적용
 
 #### ※ Project Lead
-- Communication : Slack 및 매신저, face to face로 팀 회의 <br>
+- Communication : Slack 및 메신저, face to face로 팀 회의 <br>
 - 개발 프로세스
   - 각각의 기능에 대해서 분담하고 서로 feedback 해줌
   - 개발이 완성된 부분은 merge를 통해 서비스의 부분부분을 완성해감
 - 회의 : 매일 아침 전날의 개발 성과를 보고 feedback 받음 (수시로 Trello 이용)
 
 #### ※ People Management
-- 사이트의 각 기능을 개별개별에게 할당함
+- 사이트의 각 기능을 개개인에게 할당함
 - 대체 기술에 대한 도움 및 library search 도움
 
 #### ※ 내가 기여한 부분
-개발전반의 process를 담당했고, Git merge 시 발생하는 Conflict 개선을 담당함. 기능적으로는 다음 영화 사이트에서 평점과 댓글을 크롤링 후 D3.js를 활용해서 워드클라우드를 구축하였다. 이후 파파고를 통한 워드클라우는 영문버젼도 구축함.
+개발 전반의 process를 담당했고, Git merge 시 발생하는 Conflict 개선을 담당했습니다. 기능적으로는 다음 영화 사이트에서 평점과 댓글을 크롤링 후 D3를 활용해서 워드클라우드를 구축했습니다. 이후 파파고를 통한 워드클라우의 영문버젼도 구축했습니다.
 
 #### ※ Code
 - <a href="https://github.com/The-G/mini_project/tree/develop">https://github.com/The-G/mini_project/tree/develop</a>
