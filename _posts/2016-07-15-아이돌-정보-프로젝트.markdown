@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AOI
+title: 아이돌 정보 프로젝트
 date: 2016-07-15 00:00:00 +0900
 description: # Add post description (optional)
 img: # Add image post (optional)

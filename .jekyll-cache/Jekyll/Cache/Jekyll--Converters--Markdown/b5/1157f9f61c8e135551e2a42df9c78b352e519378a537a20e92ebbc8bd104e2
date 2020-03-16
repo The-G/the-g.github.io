@@ -1,0 +1,47 @@
+I"
+<h4 id="java를-이용한-데이터-크롤링-데이터-정제를-위한-프로젝트-영화를-부탁해-서비스는-영화의-현재까지의-댓글을-수집해서-워드-클라우드를-구성해-줌으로써-영화에-대한-객관적인-평을-참고할-수-있도록-도와주는-사이트입니다">‘Java를 이용한 데이터 크롤링, 데이터 정제를 위한 프로젝트’, 영화를 부탁해 서비스는 영화의 현재까지의 댓글을 수집해서 워드 클라우드를 구성해 줌으로써 영화에 대한 객관적인 평을 참고할 수 있도록 도와주는 사이트입니다.</h4>
+
+<h4 id="-technical-lead">※ Technical Lead</h4>
+<ul>
+  <li>Web backend : Java, Oracle <br /></li>
+  <li>Web frontend : HTML5, CSS3, JQuery, Javascript, D3.js <br /></li>
+  <li>Versioning : Git Flow 협업 플로우(master, develop, feature branch, code review) <br /></li>
+  <li>MVC model 적용</li>
+</ul>
+
+<h4 id="-project-lead">※ Project Lead</h4>
+<ul>
+  <li>Communication : Slack 및 메신저, face to face로 팀 회의 <br /></li>
+  <li>개발 프로세스
+    <ul>
+      <li>각각의 기능에 대해서 분담하고 서로 feedback 해줌</li>
+      <li>개발이 완성된 부분은 merge를 통해 서비스의 부분부분을 완성해감</li>
+    </ul>
+  </li>
+  <li>회의 : 매일 아침 전날의 개발 성과를 보고 feedback 받음 (수시로 Trello 이용)</li>
+</ul>
+
+<h4 id="-people-management">※ People Management</h4>
+<ul>
+  <li>사이트의 각 기능을 개개인에게 할당함</li>
+  <li>대체 기술에 대한 도움 및 library search 도움</li>
+</ul>
+
+<h4 id="-내가-기여한-부분">※ 내가 기여한 부분</h4>
+<p>개발 전반의 process를 담당했고, Git merge 시 발생하는 Conflict 개선을 담당했습니다. 기능적으로는 다음 영화 사이트에서 평점과 댓글을 크롤링 후 D3를 활용해서 워드클라우드를 구축했습니다. 이후 파파고를 통한 워드클라우의 영문버젼도 구축했습니다.</p>
+
+<h4 id="-code">※ Code</h4>
+<ul>
+  <li><a href="https://github.com/The-G/mini_project/tree/develop">https://github.com/The-G/mini_project/tree/develop</a></li>
+  <li><a href="https://github.com/The-G/mini_project/tree/master">https://github.com/The-G/mini_project/tree/master</a></li>
+</ul>
+
+<h4 id="-사진">※ 사진</h4>
+<p><img src="/assets/img/movie-a.png" alt="I and My friends" /></p>
+<hr />
+
+<p><img src="/assets/img/movie-b.png" alt="I and My friends" /></p>
+<hr />
+
+<p><img src="/assets/img/movie-c.png" alt="I and My friends" /></p>
+:ET

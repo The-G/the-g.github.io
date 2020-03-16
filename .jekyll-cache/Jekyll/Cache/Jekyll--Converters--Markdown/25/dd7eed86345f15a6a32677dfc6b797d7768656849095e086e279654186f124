@@ -1,0 +1,26 @@
+I"�<h4 id="아이돌의-모든-것을-모아보자-취지로-만들어진-서비스dau-약-2k명">‘아이돌의 모든 것을 모아보자!!’ 취지로 만들어진 서비스(DAU 약 2K명)</h4>
+
+<h4 id="-technical-lead">※ Technical Lead</h4>
+<ul>
+  <li>Web backend : Ruby on Rails, Mysql</li>
+  <li>Web frontend : HTML5, CSS3, JQuery, Javascript</li>
+  <li>Versioning : Git Flow 사용, 혼자서 만들었기 때문에 version관리 도움
+(master, develop, feature/branch, hotfix/branch, release/branch)</li>
+  <li>Server : Nginx with Digital Ocean</li>
+  <li>MVC model 적용</li>
+</ul>
+
+<h4 id="-서비스에-적용된-기능들">※ 서비스에 적용된 기능들</h4>
+<ul>
+  <li>뉴스 및 아이돌 관련 글 자동 크롤링</li>
+  <li>외국인들을 위한 language 변환 기능</li>
+  <li>Rails admin을 통해 사이트 관리에 용의한 대시보드 제공</li>
+  <li>https 적용</li>
+  <li>회원가입, login, 비밀번호 찾기</li>
+  <li>게시판 및 댓글, 좋아요 기능</li>
+  <li>Google Analytics를 통해 매달 사용자 추이 분석</li>
+</ul>
+
+<h4 id="-하면서-느낀-부분">※ 하면서 느낀 부분</h4>
+<p>혼자서 개발 했기 때문에 편한 부분도 있었지만, 역시 자기자신의 부족함을 느낄 수 있는 시간이었습니다. MVC 모델에 기반에 개발에 더 익숙해 질 수 있는 시간이었고, Git Flow에 좀 더 능숙해 질 수 있었습니다.</p>
+:ET
